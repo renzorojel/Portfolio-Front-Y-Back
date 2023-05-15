@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="imagenes/favico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"> 
+</head>
+<body>
+
+    <div class="wrapper">
+    <header>
+            <nav class="navbar">
+ <div class="brand"> 
+           
+
+            <!---     efecto ola .DEV-->
+<div class="renzotext">
+    <h3 class="border">Developer</h3>
+<h3 class="wave">Developer</h3>
+</div>
+</div>
+<!--                  END            -->
+        <ul class="menu" id="menu">
+            <li onclick="scrollToSection('inicio')">Inicio</li>
+            <li onclick="scrollToSection('about')">Sobre mi</li>
+            <li onclick="scrollToSection('habilidades')">Habilidades</li>
+            <li onclick="scrollToSection('portfolio')">Portfolio</li>
+            <li onclick="scrollToSection('contacto')">Contacto</li>
+    </ul>
+    <div class="toggle-menu">
+        <i class="fas fa-bars" id="toggle_open"></i>
+        <i class="fas fa-close" id="toggle_close"></i>
+      </div>
+    </nav>
+</header>
+<main class="main" id="inicio">
+ <div class="info-content">
+        <h1>Yo soy <span>Renzo</span> Rojel</h1>
+        <h2>Full Stack Jr</h2>
+        <p> Cordoba - Argentina</p>
+        <a download href="Cv.pdf">
+    <button class="download-cv"> Download CV </button>
+        </a>
+    </div>
+    <img src="imagenes/renzosexy.JPG" class="renzo"  alt="">
+    </main>
+    </div>
+  
+  
+    <!-- About Me -->
+    
+        <div class="about" id="about" >
+        
+        <img src="imagenes/_DSC6157_2.JPG" class="renzo2" alt="">
+    
+<div class="about-info" id="about" >
+    <h2>About Me</h2>
+    <div class="divider"></div>
+    <p>Soy estudiante de Ciencias Economicas en la Universidad Nacional de Cordoba, Argentina. Tambien estudio Desarrollo Local y Regional, en la Universidad de Villa Maria, Cordoba. Empece a estudiar programacion de forma autodidacta y gracias al programa que brinda el ministerio de Economia de la nacion (Argentina Programa), pude interiorizarme mas sobre la programacion. Esta disciplina me interesa por que ofrece muchas posibilidades y oportunidades en la era digital actual. La programación permite crear soluciones tecnológicas para resolver problemas cotidianos y satisfacer necesidades específicas en diferentes campos, incluyendo la economía y el desarrollo local y regional.</p>
+    
+ </div>
+</div>
+
+<!-- Seccion Habilidades -->
+
+<div class="contenedor-habilidades" id="habilidades">
+
+    <div class="text-habilidades">
+    <h2>Habilidades</h2>
+    <div class="divider"></div> 
+</div>
+
+   <div class="contenido">
+    
+<div class="card">
+    
+        
+    <div class="iconos">
+
+        <img src="imagenes/kisspng-area-text-brand-clip-art-metroui-apps-html-5-5ab0cc0e33c183.755302471521536014212.png" alt="" class="iconos">
+<img src="imagenes/kisspng-web-development-cascading-style-sheets-css3-comput-css-5ada20be5eed10.7390827615242446703888.png" class="iconos" alt="">
+</div>
+  
+</div>
+<div class="card2"> </div>
+</div>
+</div>
+
+<!--- Porfolio -->
+<div class="portfolio-contenedor" id="portfolio">
+    <div class="text-portfolio">
+            <h2>Portfolio</h2>
+            <div class="divider"></div> 
+            <h2>proximamente...</h2>
+    </div>  
+    </div> 
+    </div>
+    
+    <!-- Contacto -->
+    <div class="contacto-contenedor" id="contacto">
+    <div class="text-contacto">
+        <h2>Contacto</h2>
+        <div class="divider"></div>
+    </div>
+    <div class="contacto">
+        <div class="contact-form">
+    <form class="form-control">
+        <h4>Enviar un mensaje</h4>
+    <input class="input" type="text" placeholder="Nombre">
+    <input class="input" type="email" placeholder="Email">
+    <textarea placeholder="Place your massage here...">
+    </textarea>
+        <button type="submit" class="btn-submit">Enviar mensaje</button>
+    </form>
+    </div>
+    </div>
+    
+    
+    
+    <div class="footer">
+        <div class="footer-cont">
+            <h2>Renzo <span>Rojel</span></h2>
+            <h5>Full Stacker <span>Developer</span></h5>
+        </div>
+    </div>
+    
+    </div>
+<script src="/scripts.js" ></script>
+
+</body>
+</html>
+
